@@ -1,0 +1,29 @@
+{
+  "name": "weather-bot",
+  "version": "1.0.0",
+  "description": "A simple Discord bot for telling weather using slash commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KartikAroraOfficial/weather-bot.git"
+  },
+  "author": "Kartik Arora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KartikAroraOfficial/weather-bot/issues"
+  },
+  "homepage": "https://github.com/KartikAroraOfficial/weather-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  }
+}
